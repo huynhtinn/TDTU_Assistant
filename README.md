@@ -2,8 +2,7 @@
 
 <div align="center">
 
-
-**Trợ lý ảo thông minh hỗ trợ sinh viên Đại học Tôn Đức Thắng**
+**An intelligent virtual assistant for Ton Duc Thang University students**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue)](https://python.org)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.52-red)](https://streamlit.io)
@@ -14,32 +13,32 @@
 
 ---
 
-## 📖 Giới thiệu
+## 📖 Overview
 
-**TDTU AI Assistant** là hệ thống chatbot AI được xây dựng như khóa luận tốt nghiệp tại Đại học Tôn Đức Thắng (TDTU). Hệ thống ứng dụng kiến trúc **Dual-Layer Multi-Agent RAG** để trả lời các câu hỏi về thông tin học vụ, học phí, tuyển sinh và đời sống sinh viên bằng tiếng Việt.
+**TDTU AI Assistant** is an AI-powered chatbot built as a graduation thesis at Ton Duc Thang University (TDTU). The system leverages a **Dual-Layer Multi-Agent RAG** architecture to answer questions about academic affairs, tuition, admissions, and student life in Vietnamese.
 
-## ✨ Tính năng chính
+## ✨ Key Features
 
-- 🤖 **Chatbot AI thông minh** — Hỏi đáp tự nhiên bằng tiếng Việt về mọi vấn đề liên quan đến nhà trường
-- 🗂️ **Phân loại ý định** — Nhận diện câu hỏi ngoài phạm vi và lời chào hỏi bằng mô hình PhoBERT
-- 🔀 **Định tuyến thông minh** — LLM tự động chọn agent phù hợp với từng loại câu hỏi
-- 📚 **Cơ sở dữ liệu tài liệu** — Xem và tải 30+ văn bản quy chế, quy định PDF của trường
-- 📞 **Thông tin liên hệ** — Tra cứu nhanh số điện thoại, email các phòng ban
+- 🤖 **AI Chatbot** — Natural language Q&A in Vietnamese about all university-related topics
+- 🗂️ **Intent Classification** — Detects greetings and out-of-scope questions using a fine-tuned PhoBERT model
+- 🔀 **Smart Routing** — LLM automatically selects the most appropriate agent for each query
+- 📚 **Document Database** — Browse and download 30+ official university PDF regulations
+- 📞 **Contact Directory** — Quickly look up phone numbers and emails for all departments
 
-## 🏗️ Kiến trúc hệ thống
+## 🏗️ System Architecture
 
 ```
-Câu hỏi của người dùng
-        │
-        ▼
+User Question
+      │
+      ▼
 ┌──────────────────────┐
-│  Layer 1: PhoBERT    │  ← Phân loại ý định (GREETING / OUT_OF_SCOPE / IN_SCOPE)
+│  Layer 1: PhoBERT    │  ← Intent Classification (GREETING / OUT_OF_SCOPE / IN_SCOPE)
 │  Intent Classifier   │
 └──────────┬───────────┘
            │ IN_SCOPE
            ▼
 ┌──────────────────────┐
-│  Layer 2: Groq LLM   │  ← Router: Phân tích & lập kế hoạch
+│  Layer 2: Groq LLM   │  ← Analyzes query & builds execution plan
 │  Router & Planner    │
 └──────────┬───────────┘
            │
@@ -54,69 +53,69 @@ Câu hỏi của người dùng
            │
            ▼
 ┌──────────────────────┐
-│  Groq LLM Synthesizer│  ← Tổng hợp câu trả lời cuối cùng
+│  Groq LLM Synthesizer│  ← Merges agent responses into final answer
 └──────────────────────┘
 ```
 
-### Các Agent chuyên biệt
+### Specialized Agents
 
-| Agent | Phụ trách | Nguồn dữ liệu |
+| Agent | Handles | Data Source |
 |---|---|---|
-| **ACADEMIC** | Điểm số, rèn luyện, quy chế đào tạo | SQLite + ChromaDB |
-| **FINANCIAL** | Học phí, học bổng, công nợ | SQLite + ChromaDB |
-| **ADMISSION** | Tuyển sinh, điểm chuẩn, thủ tục nhập học | ChromaDB |
-| **STUDENT_LIFE** | Ký túc xá, bảo hiểm, câu lạc bộ | ChromaDB |
-| **GENERAL** | Liên hệ, thông tin chung | ChromaDB |
+| **ACADEMIC** | GPA, training points, academic regulations | SQLite + ChromaDB |
+| **FINANCIAL** | Tuition fees, scholarships, student debts | SQLite + ChromaDB |
+| **ADMISSION** | Entrance exams, admission benchmarks, enrollment | ChromaDB |
+| **STUDENT_LIFE** | Dormitory, insurance, student clubs | ChromaDB |
+| **GENERAL** | Contact info, general university information | ChromaDB |
 
-## 🛠️ Công nghệ sử dụng
+## 🛠️ Tech Stack
 
-| Thành phần | Công nghệ |
+| Component | Technology |
 |---|---|
 | Web UI | Streamlit |
 | LLM | Groq (Llama / Mixtral) |
-| Embedding | HuggingFace Sentence Transformers |
+| Embeddings | HuggingFace Sentence Transformers |
 | Vector Store | ChromaDB |
 | Intent Classifier | PhoBERT (fine-tuned) |
 | Vietnamese NLP | Underthesea |
 | SQL Database | SQLite + SQLAlchemy |
 | RAG Framework | LangChain |
 
-## 📁 Cấu trúc thư mục
+## 📁 Project Structure
 
 ```
 TDTU_Assistant/
-├── .streamlit/                 # Cấu hình Streamlit & logo
+├── .streamlit/                 # Streamlit config & logo
 │   ├── config.toml
 │   └── Logo ĐH Tôn Đức Thắng-TDT.png
 ├── data/
-│   ├── raw/                    # Dữ liệu JSON thu thập từ web
-│   ├── processed/              # Dữ liệu đã xử lý
+│   ├── raw/                    # JSON data crawled from TDTU websites
+│   ├── processed/              # Processed and embedded data
 │   └── stdportal/
-│       └── downloads_pdf/      # 30+ văn bản PDF quy chế/quy định
+│       └── downloads_pdf/      # 30+ official university PDF documents
 ├── models/
-│   └── intent_classifier/      # Mô hình PhoBERT đã fine-tune
+│   └── intent_classifier/      # Fine-tuned PhoBERT model
 ├── src/
 │   ├── app/
-│   │   ├── app.py              # Giao diện Streamlit chính
-│   │   ├── main.py             # Pipeline AI (Router + Synthesizer)
-│   │   ├── agents.py           # 5 Agent chuyên biệt
+│   │   ├── app.py              # Main Streamlit UI
+│   │   ├── main.py             # AI pipeline (Router + Synthesizer)
+│   │   ├── agents.py           # 5 specialized agents
 │   │   ├── rag_engine.py       # RAG pipeline
 │   │   └── intent_classifier.py
-│   ├── data_collection/        # Scripts thu thập dữ liệu
-│   ├── data_processing/        # Scripts xử lý dữ liệu
-│   └── model_training/         # Scripts huấn luyện PhoBERT
+│   ├── data_collection/        # Web crawling scripts
+│   ├── data_processing/        # Data processing & embedding scripts
+│   └── model_training/         # PhoBERT fine-tuning scripts
 ├── requirements.txt
-├── run_web.bat                  # Chạy app (Windows)
-└── run_web.sh                   # Chạy app (Linux/macOS)
+├── run_web.bat                  # Launch script (Windows)
+└── run_web.sh                   # Launch script (Linux/macOS)
 ```
 
-## 🚀 Cài đặt & Chạy
+## 🚀 Installation & Setup
 
-### Yêu cầu
+### Prerequisites
 - Python 3.10+
-- API Key từ [Groq](https://console.groq.com)
+- API Key from [Groq](https://console.groq.com)
 
-### Bước 1: Clone & cài đặt
+### Step 1: Clone & install dependencies
 ```bash
 git clone <repo-url>
 cd TDTU_Assistant
@@ -128,39 +127,37 @@ venv\Scripts\activate          # Windows
 pip install -r requirements.txt
 ```
 
-### Bước 2: Cấu hình API Key
-Tạo file `.env` (copy từ `.env.example`):
+### Step 2: Configure environment variables
+Create a `.env` file in the project root:
 ```env
 API_KEY=your_groq_api_key_here
 LLM_MODEL=llama-3.1-8b-instant
 ```
 
-### Bước 3: Chạy ứng dụng
+### Step 3: Run the application
 ```bash
-# Windows (double-click hoặc chạy trong terminal)
+# Windows
 run_web.bat
 
-# Hoặc chạy trực tiếp
+# Or directly
 streamlit run src/app/app.py
 ```
 
-Mở trình duyệt tại: **http://localhost:8501**
+Open your browser at: **http://localhost:8501**
 
-## 🖥️ Giao diện
+## 🖥️ Application Pages
 
-| Trang | Mô tả |
+| Page | Description |
 |---|---|
-| **🤖 Chatbot** | Chat với AI về thông tin TDTU |
-| **📚 Cơ sở dữ liệu** | Xem và tải tài liệu PDF quy chế, quy định |
-| **📞 Liên hệ** | Thông tin liên hệ các phòng ban |
+| **🤖 Chatbot** | Chat with the AI about TDTU information |
+| **📚 Database** | Browse and download PDF regulations & policies |
+| **📞 Contact** | Contact information for all university departments |
 
-## 📊 Dữ liệu
+## 📊 Data Sources
 
-- **26+ file JSON** thu thập từ website TDTU (tuyển sinh, học phí, đào tạo...)
-- **30+ file PDF** quy chế, quy định của nhà trường
-- **SQLite database** chứa dữ liệu sinh viên (điểm, học phí, rèn luyện)
-- **ChromaDB** vector store lưu embeddings cho RAG
+- **26+ JSON files** crawled from TDTU websites (admissions, tuition, academics...)
+- **30+ PDF files** of official university regulations and policies
+- **SQLite database** with student records (grades, tuition, training scores)
+- **ChromaDB** vector store with document embeddings for RAG retrieval
 
 ---
-
-
