@@ -92,8 +92,6 @@ TDTU_Assistant/
 │   ├── processed/              # Processed and embedded data
 │   └── stdportal/
 │       └── downloads_pdf/      # 30+ official university PDF documents
-├── models/
-│   └── intent_classifier/      # Fine-tuned PhoBERT model
 ├── src/
 │   ├── app/
 │   │   ├── app.py              # Main Streamlit UI
