@@ -1,0 +1,2 @@
+Download the PhoBERT model here: 
+https://drive.google.com/drive/folders/1yYjKeF__Cz2VGkihOj_U5QUif5u2RatL?usp=sharing

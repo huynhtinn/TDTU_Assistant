@@ -1,0 +1,72 @@
+
+# ===== Core app =====
+streamlit>=1.38,<2.0
+python-dotenv>=1.0,<2.0
+pydantic>=2.7,<3.0
+
+# ===== LangChain stack  =====
+langchain>=0.1.20,<0.2.0
+langchain-core>=0.1.52,<0.2.0
+langchain-community>=0.0.38,<0.1.0
+langchain-text-splitters>=0.0.2,<0.1.0
+langchain-chroma>=0.1.0,<0.2.0
+langchain-huggingface>=0.0.3,<0.1.0
+langchain-groq>=0.1.5,<0.2.0
+langchain-google-genai>=0.0.11,<0.1.0
+langchain-openai>=0.1.7,<0.2.0
+langsmith>=0.1.0,<0.2.0
+
+# ===== LLM SDKs =====
+groq>=0.11,<1.0
+openai>=1.35,<2.0
+google-generativeai>=0.5,<1.0
+google-api-python-client>=2.120,<3.0
+
+# ===== Vector DB =====
+chromadb>=0.4.24,<0.6.0
+
+# ===== Embeddings / NLP =====
+sentence-transformers>=2.7,<4.0
+transformers>=4.40,<5.0
+tokenizers>=0.15,<0.21
+huggingface-hub>=0.22,<1.0
+torch>=2.2,<3.0
+underthesea>=6.8,<9.0
+underthesea-core>=1.0,<2.0
+nltk>=3.8,<4.0
+
+# ===== Data / ML =====
+numpy>=1.26,<2.0
+scipy>=1.11,<2.0
+scikit-learn>=1.4,<2.0
+datasets>=2.19,<5.0
+pandas>=2.2,<3.0
+SQLAlchemy>=1.4,<2.1
+
+# ===== Utilities =====
+requests>=2.31,<3.0
+beautifulsoup4>=4.12,<5.0
+tqdm>=4.66,<5.0
+click>=8.1,<9.0
+pillow>=10.0,<13.0
+openpyxl>=3.1,<4.0
+
+# ===== Visualization====
+matplotlib>=3.8,<4.0
+seaborn>=0.13,<1.0
+
+# ===== Optional crawling packages =====
+# loguru>=0.7,<1.0
+# selenium>=4.20,<5.0
+# selenium-wire>=5.1,<6.0
+
+selenium>=4.0.0
+beautifulsoup4>=4.9.0
+loguru>=0.5.0
+sqlalchemy>=2.0.0
+openpyxl>=3.0.0
+python-dotenv>=0.19.0
+click>=8.0.0
+lxml>=4.6.0
+
+

@@ -1,0 +1,797 @@
+{
+  "evaluated_at": "2026-02-28T19:31:38.211674",
+  "model": "llama-3.1-8b-instant",
+  "total": 69,
+  "total_score": 62.5,
+  "accuracy_pct": 90.58,
+  "details": [
+    {
+      "id": "?",
+      "question": "Điểm chuẩn trúng tuyển ngành Kỹ thuật phần mềm theo phương thức xét tuyển năm 2024?",
+      "expected": [
+        "ADMISSION"
+      ],
+      "predicted": [
+        "ADMISSION"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Mức học phí phải đóng mỗi kỳ cho ngành Ngôn ngữ Anh là bao nhiêu?",
+      "expected": [
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Em muốn xem bảng điểm tích lũy các môn đã học trên cổng đào tạo.",
+      "expected": [
+        "ACADEMIC"
+      ],
+      "predicted": [
+        "ACADEMIC"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Quy chế đào tạo quy định điều kiện xét học bổng khuyến khích học tập như thế nào?",
+      "expected": [
+        "ACADEMIC"
+      ],
+      "predicted": [
+        "ACADEMIC"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Ký túc xá trường có mấy khu vực và giá phòng ở KTX thế nào?",
+      "expected": [
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Liên hệ phòng Công tác sinh viên qua số điện thoại nào?",
+      "expected": [
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Em quên mật khẩu đăng nhập cổng thông tin sinh viên thì làm cách nào lấy lại?",
+      "expected": [
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Muốn đăng ký tham gia câu lạc bộ Tiếng Anh của trường thì đăng ký ở đâu?",
+      "expected": [
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Theo quy chế đào tạo sinh viên bị cảnh cáo học vụ 2 lần thì có bị buộc thôi học không?",
+      "expected": [
+        "ACADEMIC"
+      ],
+      "predicted": [
+        "ACADEMIC"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Hạn chót nộp học phí kỳ này là ngày nào theo thông báo phòng tài chính?",
+      "expected": [
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Em cần xin bảng điểm học tập để bổ sung hồ sơ vay vốn ngân hàng.",
+      "expected": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Học phí ngành Luật mỗi kỳ là bao nhiêu và điểm chuẩn tuyển sinh năm ngoái là mấy?",
+      "expected": [
+        "ADMISSION",
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "ADMISSION",
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Sinh viên còn nợ học phí chưa đóng thì có được phòng đào tạo cho xem điểm thi không?",
+      "expected": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Quy định mức đóng bảo hiểm y tế bắt buộc cho sinh viên ở KTX năm nay?",
+      "expected": [
+        "FINANCIAL",
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "FINANCIAL"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": "?",
+      "question": "Điều kiện tốt nghiệp theo quy chế đào tạo và lệ phí xét tốt nghiệp phải nộp?",
+      "expected": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Em bị kỷ luật vi phạm nội quy ký túc xá thì có bị phòng đào tạo trừ điểm rèn luyện không?",
+      "expected": [
+        "ACADEMIC",
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": "?",
+      "question": "Thủ tục bảo lưu kết quả học tập tại phòng đào tạo và chính sách hoàn trả học phí?",
+      "expected": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Sinh viên năm nhất có bắt buộc phải mua bảo hiểm y tế khi ở KTX không?",
+      "expected": [
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Tân sinh viên mới trúng tuyển có được xét học bổng tài năng ngay kỳ đầu không?",
+      "expected": [
+        "ADMISSION",
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "ADMISSION"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": "?",
+      "question": "Quy chế đào tạo quy định điều kiện chuyển ngành và mức học phí khi chuyển có thay đổi không?",
+      "expected": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Địa chỉ cơ sở Bảo Lộc của trường Tôn Đức Thắng nằm ở đâu?",
+      "expected": [
+        "GENERAL"
+      ],
+      "predicted": [
+        "GENERAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Theo quy chế đào tạo cách tính điểm trung bình tích lũy GPA như thế nào?",
+      "expected": [
+        "ACADEMIC"
+      ],
+      "predicted": [
+        "ACADEMIC"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Phòng tài chính có chương trình hỗ trợ vay vốn ưu đãi cho sinh viên nghèo không?",
+      "expected": [
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Thư viện trường và khu tự học mở cửa phục vụ sinh viên đến mấy giờ?",
+      "expected": [
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Sinh viên đăng ký học vượt thêm tín chỉ thì phải đóng thêm học phí bao nhiêu?",
+      "expected": [
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Nội quy sinh viên quy định về trang phục khi lên lớp như thế nào?",
+      "expected": [
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Em học lại môn Tiếng Anh 1 theo quy chế đào tạo thì phải đóng bao nhiêu tiền?",
+      "expected": [
+        "ACADEMIC"
+      ],
+      "predicted": [
+        "FINANCIAL"
+      ],
+      "score": 0.0
+    },
+    {
+      "id": "?",
+      "question": "Hồ sơ đăng ký xét tuyển đại học theo phương thức học bạ có cần công chứng không?",
+      "expected": [
+        "ADMISSION"
+      ],
+      "predicted": [
+        "ADMISSION"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Điều kiện xét học bổng tài năng theo quy chế đào tạo và mức tiền thưởng?",
+      "expected": [
+        "ACADEMIC"
+      ],
+      "predicted": [
+        "ACADEMIC"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Phòng đào tạo của trường Tôn Đức Thắng nằm ở tòa nhà nào trong khuôn viên?",
+      "expected": [
+        "GENERAL"
+      ],
+      "predicted": [
+        "GENERAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Các phương thức xét tuyển đại học chính quy năm 2025 của trường gồm những hình thức nào?",
+      "expected": [
+        "ADMISSION"
+      ],
+      "predicted": [
+        "ADMISSION"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Điểm sàn xét tuyển đầu vào ngành Y khoa năm nay theo đề án tuyển sinh?",
+      "expected": [
+        "ADMISSION"
+      ],
+      "predicted": [
+        "ADMISSION"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Thủ tục nhập học cho tân sinh viên trúng tuyển đại học gồm những giấy tờ gì?",
+      "expected": [
+        "ADMISSION"
+      ],
+      "predicted": [
+        "ADMISSION"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Trường có phương thức xét tuyển đại học bằng chứng chỉ IELTS/TOEFL không?",
+      "expected": [
+        "ADMISSION"
+      ],
+      "predicted": [
+        "ADMISSION"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Thời gian nhận hồ sơ xét tuyển bổ sung đợt 2 theo đề án tuyển sinh?",
+      "expected": [
+        "ADMISSION"
+      ],
+      "predicted": [
+        "ADMISSION"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Sinh viên quốc tế nộp hồ sơ xét tuyển vào trường cần chuẩn bị giấy tờ gì?",
+      "expected": [
+        "ADMISSION"
+      ],
+      "predicted": [
+        "ADMISSION"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "So sánh mức học phí giữa chương trình đại trà và chương trình chất lượng cao?",
+      "expected": [
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Phòng tài chính có cho phép sinh viên đóng học phí theo từng tháng không?",
+      "expected": [
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Chính sách miễn giảm học phí của phòng tài chính cho con thương binh liệt sĩ?",
+      "expected": [
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Cách kiểm tra tình trạng công nợ học phí trên cổng thông tin sinh viên?",
+      "expected": [
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Sinh viên đóng thừa học phí thì phòng tài chính có hoàn trả lại không?",
+      "expected": [
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Quy trình đăng ký học phần bổ sung sau khi hết hạn đăng ký theo quy chế?",
+      "expected": [
+        "ACADEMIC"
+      ],
+      "predicted": [
+        "ACADEMIC"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Theo quy chế đào tạo điều kiện xin miễn học môn Giáo dục thể chất là gì?",
+      "expected": [
+        "ACADEMIC"
+      ],
+      "predicted": [
+        "ACADEMIC"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Vắng bao nhiêu phần trăm số buổi thì bị cấm thi cuối kỳ theo quy chế đào tạo?",
+      "expected": [
+        "ACADEMIC"
+      ],
+      "predicted": [
+        "ACADEMIC"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Quy định về quy trình phúc khảo bài thi cuối kỳ tại phòng đào tạo?",
+      "expected": [
+        "ACADEMIC"
+      ],
+      "predicted": [
+        "ACADEMIC"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Một học kỳ sinh viên được phòng đào tạo cho đăng ký tối đa bao nhiêu tín chỉ?",
+      "expected": [
+        "ACADEMIC"
+      ],
+      "predicted": [
+        "ACADEMIC"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Thời gian đào tạo tối đa cho chương trình đại học 4 năm theo quy chế?",
+      "expected": [
+        "ACADEMIC"
+      ],
+      "predicted": [
+        "ACADEMIC"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Thủ tục xin cấp lại thẻ sinh viên bị mất tại phòng công tác sinh viên?",
+      "expected": [
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Trường có phòng y tế trong khuôn viên để khám bệnh miễn phí cho sinh viên không?",
+      "expected": [
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Sinh viên muốn tổ chức sự kiện ngoại khóa trong trường cần xin phép phòng ban nào?",
+      "expected": [
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Nội quy ký túc xá quy định giờ giới nghiêm là mấy giờ?",
+      "expected": [
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Trường có sân bóng đá phòng gym và cơ sở thể thao cho sinh viên tập luyện không?",
+      "expected": [
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Trung tâm tư vấn tâm lý của trường có phục vụ miễn phí cho sinh viên không?",
+      "expected": [
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Email và số điện thoại liên hệ phòng Kế hoạch Tài chính?",
+      "expected": [
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Website chính thức và cổng thông tin của trường Đại học Tôn Đức Thắng?",
+      "expected": [
+        "GENERAL"
+      ],
+      "predicted": [
+        "GENERAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Trường Đại học Tôn Đức Thắng hiện có bao nhiêu khoa và viện đào tạo?",
+      "expected": [
+        "GENERAL"
+      ],
+      "predicted": [
+        "GENERAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Phòng đào tạo làm việc từ mấy giờ đến mấy giờ các ngày trong tuần?",
+      "expected": [
+        "ACADEMIC"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 0.0
+    },
+    {
+      "id": "?",
+      "question": "Trường Đại học Tôn Đức Thắng được thành lập vào năm nào?",
+      "expected": [
+        "GENERAL"
+      ],
+      "predicted": [
+        "GENERAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Khuôn viên chính của trường Tôn Đức Thắng nằm ở quận nào TP.HCM?",
+      "expected": [
+        "GENERAL"
+      ],
+      "predicted": [
+        "GENERAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Điểm chuẩn tuyển sinh ngành Quản trị kinh doanh và mức học phí ngành đó?",
+      "expected": [
+        "ADMISSION",
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "ADMISSION",
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Tân sinh viên mới nhập học cần đóng bảo hiểm y tế khoản phí bao nhiêu?",
+      "expected": [
+        "ADMISSION",
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "FINANCIAL"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": "?",
+      "question": "Sinh viên năm nhất mới nhập học có được ưu tiên đăng ký ở ký túc xá không?",
+      "expected": [
+        "ADMISSION",
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": "?",
+      "question": "Quy trình rút học phần tại phòng đào tạo và chính sách hoàn trả học phí?",
+      "expected": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Sinh viên bị buộc thôi học theo quy chế thì phòng tài chính có hoàn học phí không?",
+      "expected": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "ACADEMIC",
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    },
+    {
+      "id": "?",
+      "question": "Điểm rèn luyện thấp dưới mức quy định có ảnh hưởng đến xét học bổng không?",
+      "expected": [
+        "ACADEMIC",
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "ACADEMIC"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": "?",
+      "question": "Chi phí ở ký túc xá mỗi tháng có bao gồm tiền điện nước không?",
+      "expected": [
+        "FINANCIAL",
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": "?",
+      "question": "Số điện thoại liên hệ phòng tuyển sinh và cách tra cứu kết quả xét tuyển online?",
+      "expected": [
+        "ADMISSION",
+        "GENERAL"
+      ],
+      "predicted": [
+        "ADMISSION"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": "?",
+      "question": "Sinh viên tham gia hoạt động tình nguyện Đoàn Hội có được cộng điểm rèn luyện không?",
+      "expected": [
+        "ACADEMIC",
+        "STUDENT_LIFE"
+      ],
+      "predicted": [
+        "STUDENT_LIFE"
+      ],
+      "score": 0.5
+    },
+    {
+      "id": "?",
+      "question": "Chương trình liên kết quốc tế có mức học phí riêng và điều kiện xét tuyển đầu vào?",
+      "expected": [
+        "ADMISSION",
+        "FINANCIAL"
+      ],
+      "predicted": [
+        "ADMISSION",
+        "FINANCIAL"
+      ],
+      "score": 1.0
+    }
+  ]
+}

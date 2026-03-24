@@ -1,0 +1,14 @@
+{
+  "evaluated_at": "2026-02-28T09:15:30.135367",
+  "model_judge": "qwen2.5:7b",
+  "total_samples": 104,
+  "valid_samples": 103,
+  "metrics": {
+    "faithfulness": 0.6785,
+    "answer_relevancy": 0.862,
+    "context_precision": 0.8333,
+    "context_recall": 0.4518,
+    "ragas_score": 0.7064
+  },
+  "total_time_min": 37.9
+}
